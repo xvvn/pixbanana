@@ -1,0 +1,597 @@
+{
+  "prompts": {
+    "clothing": {
+      "经典正装风": {
+        "title": "经典正装风",
+        "tags": [
+          {
+            "text": "米色西装外套",
+            "prompt": "soft beige suit jacket, classic formal wear"
+          },
+          {
+            "text": "灰色西装外套,内搭灰色针织衫",
+            "prompt": "grey suit jacket, layered over a grey knit sweater"
+          },
+          {
+            "text": "灰色西装,配黑色领带",
+            "prompt": "classic grey suit, white shirt, black tie"
+          },
+          {
+            "text": "黑色西装外套,内搭白色衬衫",
+            "prompt": "classic black suit jacket, crisp white collared shirt"
+          },
+          {
+            "text": "黑色西装套装,配黑领带(M)",
+            "prompt": "full black suit, white shirt, solid black tie"
+          },
+          {
+            "text": "灰色西装套装,配蓝领带(M)",
+            "prompt": "full grey suit, white shirt, solid blue tie"
+          },
+          {
+            "text": "深蓝色西装套装,配绿领带(M)",
+            "prompt": "dark navy blue suit, white shirt, green tie"
+          },
+          {
+            "text": "黑色西装套装,配黄绿条纹领带(M)",
+            "prompt": "black suit, white shirt, yellow-green striped tie"
+          }
+        ]
+      },
+      "轻松日常风": {
+        "title": "轻松日常风",
+        "tags": [
+          {
+            "text": "浅蓝衬衫,带口袋设计",
+            "prompt": "casual light blue shirt, single chest pocket"
+          },
+          {
+            "text": "黑色V领针织衫,带纽扣装饰",
+            "prompt": "black V-neck sweater, decorative buttons"
+          },
+          {
+            "text": "黑色圆领T恤",
+            "prompt": "simple black crew-neck t-shirt"
+          },
+          {
+            "text": "白色基础款上衣",
+            "prompt": "simple white basic t-shirt"
+          },
+          {
+            "text": "黑色圆领T恤(M)",
+            "prompt": "simple black crew-neck t-shirt"
+          },
+          {
+            "text": "白色翻领衬衫(M)",
+            "prompt": "classic white collared shirt, casual style"
+          },
+          {
+            "text": "浅蓝色翻领衬衫,内搭白T(M)",
+            "prompt": "open light blue collared shirt, layered over a white t-shirt"
+          },
+          {
+            "text": "蓝色牛仔外套,内搭白T(M)",
+            "prompt": "blue denim jacket, layered over a white t-shirt"
+          }
+        ]
+      },
+      "休闲雅致风": {
+        "title": "休闲雅致风",
+        "tags": [
+          {
+            "text": "米色娃娃领衬衫,带金色纽扣",
+            "prompt": "beige blouse, peter pan collar, gold buttons"
+          },
+          {
+            "text": "黑白蕾丝领衬衫,带纽扣装饰",
+            "prompt": "black shirt, contrast white lace collar"
+          },
+          {
+            "text": "白色蝴蝶结衬衫",
+            "prompt": "elegant white blouse, large bow-knot collar"
+          },
+          {
+            "text": "黑色无袖衬衫",
+            "prompt": "minimalist black sleeveless blouse"
+          },
+          {
+            "text": "棕色竖条纹翻领衬衫(M)",
+            "prompt": "brown collared shirt, vertical stripes"
+          },
+          {
+            "text": "浅灰色西装外套,内搭白T(M)",
+            "prompt": "light grey blazer, layered over a white t-shirt, smart casual"
+          },
+          {
+            "text": "深灰色西装外套,内搭白T(M)",
+            "prompt": "dark grey blazer, layered over a white t-shirt, smart casual"
+          }
+        ]
+      },
+      "青春学院风": {
+        "title": "青春学院风",
+        "tags": [
+          {
+            "text": "深蓝色西装,配白衬衫+深蓝领带",
+            "prompt": "dark blue school uniform blazer, white shirt, dark blue tie"
+          },
+          {
+            "text": "灰色西装,配徽章+浅蓝衬衫",
+            "prompt": "grey school uniform blazer, school crest badge, light blue shirt"
+          },
+          {
+            "text": "米色毛衣,配领结+白衬衫",
+            "prompt": "beige knit sweater, over white collared shirt, bow tie, preppy style"
+          },
+          {
+            "text": "深蓝色毛衣,配徽章+白衬衫",
+            "prompt": "dark blue knit sweater, school crest badge, over white collared shirt"
+          },
+          {
+            "text": "灰色菱形图案针织毛衣,配黑领带(M)",
+            "prompt": "grey argyle knit sweater, over white shirt, black tie"
+          },
+          {
+            "text": "灰色V领针织衫,绿边装饰,配绿领带(M)",
+            "prompt": "grey V-neck tennis sweater, green trim, over white shirt, green tie"
+          },
+          {
+            "text": "米白色圆领针织衫,黑边装饰,配黑领带(M)",
+            "prompt": "off-white sweater, black trim detail, over white shirt, black tie"
+          },
+          {
+            "text": "深蓝色校服式外套,配绿领带(M)",
+            "prompt": "dark blue school uniform jacket, white shirt, green tie"
+          }
+        ]
+      },
+      "英伦学院风": {
+        "title": "英伦学院风",
+        "tags": [
+          {
+            "text": "棕色西装外套+红领带+徽章",
+            "prompt": "brown blazer, school crest badge, over white shirt, red tie, British preppy style"
+          },
+          {
+            "text": "深蓝西装套装+黑领带",
+            "prompt": "tailored navy blue suit, white shirt, black tie"
+          },
+          {
+            "text": "藏青西装外套+花纹领结+胸牌",
+            "prompt": "dark blue blazer, name tag, over white shirt, patterned bow tie"
+          },
+          {
+            "text": "灰色西装套装+黑领结+胸牌",
+            "prompt": "grey suit, school crest badge, over white shirt, black bow tie"
+          }
+        ]
+      },
+      "韩系学院风": {
+        "title": "韩系学院风",
+        "tags": [
+          {
+            "text": "米白西装外套+绿三角领结+徽章",
+            "prompt": "off-white school blazer, school crest badge, green tie, k-pop idol school look"
+          },
+          {
+            "text": "白色西装外套+蓝条纹领带+胸牌",
+            "prompt": "white blazer, name tag, over shirt, blue striped tie, Korean school style"
+          },
+          {
+            "text": "灰色连衣裙+黑领结+胸牌",
+            "prompt": "grey sleeveless school uniform dress, over white blouse, black bow tie"
+          },
+          {
+            "text": "深蓝露肩上衣+交叉绑带",
+            "prompt": "trendy dark blue off-shoulder top, crisscross straps"
+          }
+        ]
+      },
+      "海盐元气风": {
+        "title": "海盐元气风",
+        "tags": [
+          {
+            "text": "红色吊带背心+浅黄内搭",
+            "prompt": "red camisole top, layered over light yellow t-shirt, vibrant and casual"
+          },
+          {
+            "text": "浅蓝宽松衬衫+白色短款内搭",
+            "prompt": "oversized light blue shirt, open, over a white crop top"
+          },
+          {
+            "text": "浅粉纽扣衬衫+白色内搭",
+            "prompt": "soft pink button-down shirt, layered over a white top"
+          }
+        ]
+      },
+      "温柔素雅风": {
+        "title": "温柔素雅风",
+        "tags": [
+          {
+            "text": "白色蕾丝无袖上衣",
+            "prompt": "delicate white sleeveless lace top"
+          },
+          {
+            "text": "白色短袖修身T恤",
+            "prompt": "simple fitted white short-sleeve t-shirt"
+          },
+          {
+            "text": "浅绿高领短款上衣",
+            "prompt": "soft pale green high-neck crop top"
+          }
+        ]
+      },
+      "利落干练风": {
+        "title": "利落干练风",
+        "tags": [
+          {
+            "text": "剪裁立体西装",
+            "prompt": "sharp tailored grey suit, structured shoulders, crisp white shirt"
+          },
+          {
+            "text": "无袖白衬衫",
+            "prompt": "minimalist sleeveless white collared shirt, professional"
+          },
+          {
+            "text": "米白西装外套",
+            "prompt": "relaxed off-white blazer, notched lapel, over a simple top"
+          }
+        ]
+      },
+      "温柔智性风": {
+        "title": "温柔智性风",
+        "tags": [
+          {
+            "text": "修身连衣裙",
+            "prompt": "fitted knit bodycon dress, turtleneck or sleeveless design"
+          },
+          {
+            "text": "黑色无袖连衣裙",
+            "prompt": "minimalist black sleeveless dress, straight silhouette"
+          },
+          {
+            "text": "深灰无袖上衣",
+            "prompt": "structured dark grey sleeveless top, form-fitting"
+          }
+        ]
+      }
+    },
+    "pose": {
+      "front": {
+        "title": "正面姿势",
+        "tags": [
+          {
+            "text": "正对镜头，自信表情",
+            "prompt": "facing directly at camera, confident expression"
+          },
+          {
+            "text": "挺直姿势，肩膀后展",
+            "prompt": "straight posture, shoulders back, professional pose"
+          }
+        ]
+      },
+      "side": {
+        "title": "侧身姿势",
+        "tags": [
+          {
+            "text": "轻微侧身，仍保持注视镜头",
+            "prompt": "Slightly sideways, but still looking at the camera"
+          },
+          {
+            "text": "向左10度，肩膀几乎正对镜头",
+            "prompt": "Pose: 10 degrees to the left, shoulders almost facing the camera, eye contact maintained"
+          },
+          {
+            "text": "3/4视角，轻微头部倾斜，自然微笑",
+            "prompt": "3/4 view, slight tilt of the head, natural smile"
+          }
+        ]
+      }
+    },
+    "makeup": {
+      "makeup": {
+        "title": "妆容风格",
+        "tags": [
+          {
+            "text": "原生",
+            "prompt": "natural makeup, expressive eyes, glowing healthy skin, subtle contouring."
+          },
+          {
+            "text": "元气",
+            "prompt": "youthful energetic makeup, dewy translucent skin, soft feathery eyebrows, peachy blush, innocent sparkling eyes."
+          },
+          {
+            "text": "精致",
+            "prompt": "elegant and refined makeup, sculpted facial contours, flawless skin, vibrant harmonious colors, a look of strong presence."
+          },
+          {
+            "text": "氧气裸肌",
+            "prompt": "no-makeup makeup look, transparent and breathable skin, low-saturation tones, soft coffee eyeliner, hint of apricot pink eyeshadow, natural nude pink lips."
+          },
+          {
+            "text": "蜜糖琥珀妆",
+            "prompt": "warm honey amber makeup, orange-brown eyeshadow, defined eyelashes, Korean-style eyeliner, light orange blush, ultra-glossy lips."
+          },
+          {
+            "text": "知识分子复古系",
+            "prompt": "intellectual vintage makeup, sophisticated retro style, matte finish, earthy-toned eyeshadow, defined matte red lips, sharp natural eyebrows."
+          },
+          {
+            "text": "活力甜美系",
+            "prompt": "vibrant sweet k-pop idol makeup, pink apricot tones, defined lashes, pink blush concentrated under the eyes, glossy pink lips."
+          },
+          {
+            "text": "韩系千金系",
+            "prompt": "elegant Korean heiress makeup, soft pink-brown tones, clean flawless skin, defined yet natural lashes, soft gradient 'bitten' lips."
+          },
+          {
+            "text": "智感哑光雕塑妆",
+            "prompt": "sophisticated matte sculpting makeup, emphasizing facial bone structure, sharp eyeliner, natural hair-stroke eyebrows, low-saturation brown eyeshadow, matte velvet lips."
+          },
+          {
+            "text": "美颜（通用）",
+            "prompt": "A professional studio-quality, ultra-high-definition ID photo, subject centered and facing forward.\nShape with Light: Utilize a golden lighting ratio and Rembrandt lighting to create strong facial dimensionality and a high-end sculpted look, with shadows naturally contouring the face inward by approximately 1.5cm.\nVellus-Hair-Level Detail: The light is filtered through a 0.1mm softbox, producing an exceptionally fine texture that captures the soft, misty feel of individual hair strands while preserving visible, realistic skin pores.\nArt of Gradation: Precisely control light and shadow, creating pinpoint highlights on high points (like the T-zone and cheekbones), ensuring smooth mid-tone transitions, and using shadows to shape and define contours. The skin should appear translucent and luminous, avoiding any artificial whiteness.\nNatural Retouching & Feature Retention: The core focus is \"authenticity.\" Fully preserve the subject's natural smile lines, eye bags, and expression muscle definition. Retain permanent facial features like dimples and moles. Only slightly soften the structural shadows of nasolabial folds and apple cheeks, while correcting temporary blemishes like acne scars or redness.\nSkin Texture: Reject excessive skin smoothing. Restore and moderately retain the skin's original, native texture and pore details for a high-fidelity finish.\nFace Shape/Features: Strictly maintain the subject's original face shape and facial feature proportions without any distortion or alteration. Only perform micro-optimizations to the smoothness of the facial contour to ensure the subject's identity is perfectly recognizable."
+          }
+        ]
+      }
+    },
+    "hairstyle": {
+      "natural": {
+        "title": "自然发型",
+        "tags": [
+          {
+            "text": "自然披肩发",
+            "prompt": "natural shoulder-length hair, ears visible"
+          },
+          {
+            "text": "露眉斜刘海",
+            "prompt": "side-swept bangs, revealing eyebrows"
+          },
+          {
+            "text": "中分中长刘海",
+            "prompt": "center-parted curtain bangs, eyebrows visible"
+          },
+          {
+            "text": "不对称前后发型",
+            "prompt": "asymmetric hair, one side forward, one side tucked back"
+          },
+          {
+            "text": "自然微卷发",
+            "prompt": "naturally wavy hair, neat and professional"
+          },
+          {
+            "text": "长发大波浪",
+            "prompt": "long hair with voluminous waves"
+          },
+          {
+            "text": "长发微卷",
+            "prompt": "long hair with slight waves"
+          },
+          {
+            "text": "中长发",
+            "prompt": "medium-length hair"
+          },
+          {
+            "text": "中长发直顺",
+            "prompt": "sleek medium-length straight hair"
+          },
+          {
+            "text": "中长发披肩",
+            "prompt": "shoulder-length medium hair"
+          },
+          {
+            "text": "中长发卷发",
+            "prompt": "medium-length wavy hair"
+          },
+          {
+            "text": "大波浪卷发",
+            "prompt": "long loose curls"
+          },
+          {
+            "text": "双麻花辫",
+            "prompt": "double braids"
+          }
+        ]
+      },
+      "formal": {
+        "title": "正式发型",
+        "tags": [
+          {
+            "text": "高马尾",
+            "prompt": "high ponytail, clean forehead, professional"
+          },
+          {
+            "text": "低马尾",
+            "prompt": "low ponytail, neat and elegant"
+          },
+          {
+            "text": "中位马尾",
+            "prompt": "mid-height ponytail, balanced and professional"
+          },
+          {
+            "text": "盘发",
+            "prompt": "elegant updo, clean neck and ears visible"
+          },
+          {
+            "text": "整齐短发",
+            "prompt": "neat short hair, professional cut"
+          },
+          {
+            "text": "中长发直顺",
+            "prompt": "straight medium-length hair, professional"
+          }
+        ]
+      },
+      "元气活力感": {
+        "title": "元气活力感",
+        "tags": [
+          {
+            "text": "韩式半扎丸子头",
+            "prompt": "Korean half-up top knot, long black hair, soft face-framing strands"
+          },
+          {
+            "text": "花苞头",
+            "prompt": "High flower bun, rounded shape at crown, playful and feminine"
+          },
+          {
+            "text": "双编麻花辫",
+            "prompt": "Symmetrical double braided pigtails, casual and lively"
+          }
+        ]
+      },
+      "千金公主感": {
+        "title": "千金公主感",
+        "tags": [
+          {
+            "text": "公主头",
+            "prompt": "Princess hairstyle, half-updo, long soft waves, elegant and refined"
+          },
+          {
+            "text": "垂耳兔半扎发",
+            "prompt": "Bunny ear half-updo, low half-up style, natural wave, gentle and sophisticated"
+          },
+          {
+            "text": "侧分直披发",
+            "prompt": "Side-parted straight long hair, sleek and smooth texture, polished"
+          }
+        ]
+      },
+      "干练精英感": {
+        "title": "干练精英感",
+        "tags": [
+          {
+            "text": "空气纹理卷发",
+            "prompt": "Airy textured curls, medium-length hair, loose waves, professional yet relaxed"
+          },
+          {
+            "text": "高盘丸子头",
+            "prompt": "High sleek bun, all hair gathered neatly, sharp and authoritative"
+          },
+          {
+            "text": "高颅顶半扎披发",
+            "prompt": "Half-up high-top hairstyle, volume at the crown, face-framing strands, modern and confident"
+          }
+        ]
+      },
+      "清爽阳光感": {
+        "title": "清爽阳光感",
+        "tags": [
+          {
+            "text": "韩式三七纹理发",
+            "prompt": "Korean side-swept textured hair, layered cut, modern and fresh"
+          },
+          {
+            "text": "侧背头",
+            "prompt": "Side part slicked back hair, short sides with longer top, trendy and confident"
+          },
+          {
+            "text": "纹理感湿发",
+            "prompt": "Textured wet-look hair, slightly damp appearance, structured and cool"
+          }
+        ]
+      }
+    },
+    "background": {
+      "solid": {
+        "title": "纯色背景",
+        "tags": [
+          {
+            "text": "纯白",
+            "prompt": "Replace background with solid pure white (#FFFFFF). Clean and seamless professional studio quality."
+          },
+          {
+            "text": "本白", 
+            "prompt": "Replace background with solid off-white (#F8F8FF). Soft neutral tone with professional photo quality."
+          },
+          {
+            "text": "标准蓝",
+            "prompt": "Replace background with solid passport blue (#4472C4). Standard ID photo blue with professional quality."
+          },
+          {
+            "text": "红底",
+            "prompt": "Replace background with solid ID photo red (#DC143C). Professional document style with clean edges."
+          },
+          {
+            "text": "轻氧白",
+            "prompt": "Replace background with solid light oxygen white (#DBE4EB). Soft and airy professional backdrop."
+          },
+          {
+            "text": "轻氧蓝", 
+            "prompt": "Replace background with solid light oxygen blue (#99B3CC). Gentle and calming professional tone."
+          },
+          {
+            "text": "元气粉",
+            "prompt": "Replace background with solid vitality pink (#F6D7DF). Fresh and youthful professional quality."
+          },
+          {
+            "text": "活力黄",
+            "prompt": "Replace background with solid activity yellow (#E6C262). Warm and vibrant professional backdrop."
+          },
+          {
+            "text": "清新蓝",
+            "prompt": "Replace background with solid fresh blue (#A4CBEA). Bright and refreshing professional quality."
+          },
+          {
+            "text": "英伦蓝",
+            "prompt": "Replace background with solid British blue (#173F59). Deep and sophisticated professional style."
+          }
+        ]
+      },
+      "gradient": {
+        "title": "渐变背景",
+        "tags": [
+          {
+            "text": "蓝白渐变",
+            "prompt": "soft vertical gradient background, transitioning smoothly from light blue at the top to pure white at the bottom, modern and fresh"
+          },
+          {
+            "text": "渐变灰",
+            "prompt": "subtle vertical gradient background, transitioning from a medium charcoal grey at the top to a soft light grey at the bottom, professional and modern studio backdrop"
+          },
+          {
+            "text": "智性白",
+            "prompt": "Intelligent White background, upper #A5A4AA to lower #B0BFC5, soft gradient for modern ID photos"
+          },
+          {
+            "text": "智性灰",
+            "prompt": "Intelligent Gray background, upper #4F4E57 to lower #9494A0, subtle gradient for professional portraits"
+          }
+        ]
+      }
+    },
+    "lighting": {
+      "professional": {
+        "title": "专业光线",
+        "tags": [
+          {
+            "text": "工作室照明，专业肖像设置",
+            "prompt": "studio lighting, professional portrait setup"
+          },
+          {
+            "text": "柔和光线，中性背景，证件照风格",
+            "prompt": "soft lighting, neutral background, profile photo style"
+          },
+          {
+            "text": "均匀光线，无阴影",
+            "prompt": "even lighting, no harsh shadows, professional appearance"
+          }
+        ]
+      },
+      "natural": {
+        "title": "自然光线",
+        "tags": [
+          {
+            "text": "自然日光，柔和阴影",
+            "prompt": "natural daylight, soft shadows, clean look"
+          },
+          {
+            "text": "窗光，专业但自然的外观",
+            "prompt": "window lighting, professional but natural appearance"
+          }
+        ]
+      }
+    }
+  },
+  "examples": [
+  ]
+}
